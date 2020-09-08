@@ -1,0 +1,14 @@
+.cart_body {
+  position: fixed;
+  top: 11%;
+  right: 8%;
+  z-index: 99;
+  padding: 15px 0px;
+  width: 100%;
+  height: 480px;
+  max-width: 450px;
+  overflow-y: auto;
+  .cart_main {
+    width: 100%;
+  }
+}

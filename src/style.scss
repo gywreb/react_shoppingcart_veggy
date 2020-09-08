@@ -1,0 +1,49 @@
+*,
+::after,
+::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+body,
+html {
+  background: #f5f5f5;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+}
+
+.App {
+  padding-top: 140px;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  &-track {
+    background: #f1f1f1;
+  }
+  &-thumb {
+    background: #999;
+    &:hover {
+      background: #68b423;
+    }
+  }
+}
+
+.MuiTab-textColorPrimary.Mui-selected {
+  color: #68b423 !important;
+}
+
+.PrivateTabIndicator-colorPrimary-5,
+.MuiTabs-indicator {
+  background-color: #68b423 !important;
+}
+
+.jss5 {
+  background-color: #68b423 !important;
+}

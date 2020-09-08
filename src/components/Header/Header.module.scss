@@ -1,0 +1,31 @@
+.header_body {
+  position: relative;
+  color: green !important;
+  background: #fff !important;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.033) !important;
+  padding: 30px 32px;
+  .search_button {
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border: 2px solid #68b423 !important;
+    background: #68b423;
+    color: #fff;
+    transition: all 0.2s;
+    &:hover {
+      background: rgba(#68b423, 0.8) !important;
+    }
+  }
+  .search_bar {
+    flex-grow: 1;
+    input {
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px;
+      border: 2px solid #68b423;
+      border-right: none;
+      padding: 10px;
+    }
+  }
+  .total_price {
+    text-align: center;
+  }
+}

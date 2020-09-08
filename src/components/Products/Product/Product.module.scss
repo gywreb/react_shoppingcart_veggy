@@ -1,0 +1,64 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.products {
+  animation: fadeIn 1s;
+  &_card {
+    box-shadow: none !important;
+    transition: all 0.2s;
+    &:hover {
+      box-shadow: 0 3px 20px rgba(0, 0, 0, 0.15) !important;
+    }
+    padding-bottom: 10px;
+  }
+  &_content {
+    padding: 10px 10px 0px !important;
+    h5 {
+      padding-top: 15px;
+      font-weight: bold;
+      color: #666;
+    }
+  }
+  &_controls,
+  &_button {
+    padding: 10px 0px;
+  }
+  &_addtocart {
+    background: #68b423 !important;
+  }
+  &_image {
+    overflow: hidden;
+    transition: all 0.2s;
+    .media {
+      transition: all 0.2s;
+      height: 200px;
+    }
+    &:hover {
+      cursor: zoom-in;
+      background: transparent !important;
+      .media {
+        transform: scale(1.2);
+      }
+    }
+  }
+}
+
+.input {
+  padding: 0px 10px;
+  input {
+    border-radius: 2px;
+    width: 48px;
+    text-align: center;
+    border: 2px solid #ccc;
+    transition: all 0.2s;
+    &:focus {
+      border: 2px solid #68b423;
+    }
+  }
+}
