@@ -2,9 +2,9 @@
 
 A Shopping Cart Web build with React, Redux, Material-UI
 
-Reference from proj : [a link](https://github.com/sivadass/react-shopping-cart)
+Reference from proj : [sivadass/react-shopping-cart](https://github.com/sivadass/react-shopping-cart)
 
-Demo : [a link](http://gywreb-veggy.surge.sh/)
+Demo : [gywreb-veggy](http://gywreb-veggy.surge.sh/)
 
 - Install:
 
