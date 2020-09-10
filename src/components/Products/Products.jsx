@@ -37,7 +37,7 @@ const Products = () => {
   }, [dispatch]);
 
   const handleAddToCart = (id, name, image, price, category, quantity) => {
-    if (parseInt(quantity) < 1)
+    if (parseInt(quantity) < 1 || !quantity.length)
       return enqueueSnackbar("You have to buy at least 1", {
         variant: "error",
       });
