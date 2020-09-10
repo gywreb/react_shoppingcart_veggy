@@ -61,7 +61,7 @@ const Cart = () => {
                 justifyContent="center"
                 alignItems="center"
               >
-                <Typography variant="h4">You cart is empty!</Typography>
+                <Typography variant="h4">Your cart is empty!</Typography>
               </Box>
             </ListItem>
           </>
